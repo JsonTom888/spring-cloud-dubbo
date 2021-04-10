@@ -7,6 +7,6 @@ package com.jsontom.springclouddubbosampleapi.service;
  */
 public interface IHelloService {
 
-    String sayHello(String name);
+    String sayHello(String name) throws InterruptedException;
 
 }
